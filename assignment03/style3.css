@@ -1,0 +1,14 @@
+#mainbody{
+    margin-top: 0px;
+    width: 980px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#header{
+    margin-top: 0px;
+    margin-bottom: 0px;
+    height: 200px;
+    background-size: cover;
+    background-image: url("images/ps4walmartheader.jpg");
+}
