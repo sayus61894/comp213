@@ -1,6 +1,7 @@
 <!doctype html>
 <html>
 <!-- Created by Parth Shreyash Patel - Created on 2020/03/10 - Modified on 2020/02/10 -->
+
 <head lang="en">
     <link rel="stylesheet" type="text/css" href="week09-style.css">
     <meta content="text/html; charset=utf-8;" http-equiv="Content-type">
@@ -13,7 +14,38 @@
         <h1>Centennial College - Registration Form</h1>
     </header>
     <main>
-        <form action="" method="">
+        <form action="mailto: jdoe@example.ca" method="post">
+            <label>First Name</label>
+            <input type="text" id="firstName" name="firstName" maxlength="25" placeholder="First Name"><br><br>
+            Middle Name:
+            <input type="tel" id="middleName" name="middleName" maxlength="25" placeholder="Middle Name"><br><br>
+            Last Name:
+            <input type="text" id="lastName" name="lastName" maxlength="25" placeholder="Last Name"><br><br>
+            E-Mail:
+            <input type="text" id="emailField" name="emailField" maxlength="45" placeholder="jdoe@example.ca"><br><br>
+            Create Password:
+            <input type="password" id="psw" name="psw" maxlength="16" placeholder="Password"><br><br>
+            Confirm Password:
+            <input type="password" id="confirmPSW" name="confirmPSW" maxlength="16" placeholder="Confirm Password"><br><br>
+            Gender:
+            <input type="radio" id="male" name="gender" value="male">
+            <label for="male">Male</label>
+            <input type="radio" id="female" name="gender" value="female">
+            <label for="female">Female</label>
+            <input type="radio" id="other" name="gender" value="other">
+            <label for="other">Other</label>
+            <br><br>
+            Education:
+            <input type="radio" id="phD" name="education" value="phD">
+            <label for="phD">phD</label>
+            <input type="radio" id="masters" name="education" value="masters">
+            <label for="masters">masters</label>
+            <input type="radio" id="undergrad" name="education" value="undergrad">
+            <label for="undergrad">Undergrad</label>
+            <input type="radio" id="college" name="education" value="college">
+            <label for="college">college</label>
+            <input type="radio" id="highSchool" name="education" value="highSchool">
+            <label for="highSchool">High School</label>
             
         </form>
     </main>
