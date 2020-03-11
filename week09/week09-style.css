@@ -1,3 +1,19 @@
 #copyright{
-    
+    float: right;
+    margin-top: 0px;
+}
+
+#indexRef{
+    color: blue;
+}
+
+.labels{
+    float:right;
+    padding-right: 10px;
+}
+
+#fullPage{
+    width: 900px;
+    margin-right: auto;
+    margin-left: auto;
 }

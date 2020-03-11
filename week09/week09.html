@@ -10,67 +10,99 @@
 </head>
 
 <body>
-    <header>
-        <h1>Centennial College - Registration Form</h1>
-    </header>
-    <main>
-        <form action="mailto:jdoe@example.ca" method="post">
-            <label>First Name</label>
-            <input type="text" id="firstName" name="firstName" maxlength="25" placeholder="First Name"><br><br>
-            Middle Name:
-            <input type="tel" id="middleName" name="middleName" maxlength="25" placeholder="Middle Name"><br><br>
-            Last Name:
-            <input type="text" id="lastName" name="lastName" maxlength="25" placeholder="Last Name"><br><br>
-            E-Mail:
-            <input type="text" id="emailField" name="emailField" maxlength="45" placeholder="jdoe@example.ca"><br><br>
-            Create Password:
-            <input type="password" id="psw" name="psw" maxlength="16" placeholder="Password"><br><br>
-            Confirm Password:
-            <input type="password" id="confirmPSW" name="confirmPSW" maxlength="16" placeholder="Confirm Password"><br><br>
-            Gender:
-            <input type="radio" id="male" name="gender" value="male">
-            <label for="male">Male</label>
-            <input type="radio" id="female" name="gender" value="female">
-            <label for="female">Female</label>
-            <input type="radio" id="other" name="gender" value="other">
-            <label for="other">Other</label>
-            <br><br>
-            Education:
-            <input type="radio" id="phD" name="education" value="phD">
-            <label for="phD">phD</label>
-            <input type="radio" id="masters" name="education" value="masters">
-            <label for="masters">masters</label>
-            <input type="radio" id="undergrad" name="education" value="undergrad">
-            <label for="undergrad">Undergrad</label>
-            <input type="radio" id="college" name="education" value="college">
-            <label for="college">college</label>
-            <input type="radio" id="highSchool" name="education" value="highSchool">
-            <label for="highSchool">High School</label><br><br>
-            Computer Competency:
-            <input type="checkbox" id="OS" name="computerCompetency" value="OS">
-            <label for="OS">OS</label>
-            <input type="checkbox" id="Programming" name="computerCompetency" value="Programming">
-            <label for="Programming">Programming</label>
-            <input type="checkbox" id="" name="computerCompetency" value="">
-            <label for=""></label>
-            <!-- Copy above and Enter more -->
-            <br><br>
-            <label for="courses">Select Courses: </label>
-            <select multiple="multiple" name="courses" size="5">
-                <option value="COMM170">COMM170 - College Communications</option>
-                <option value="COMP100">COMP100 - Programming I</option>
-                <option value="COMP120">COMP120 - Software Engineering Fundamentals</option>
-                <option value="COMP125">COMP125 - Client Side Development</option>
-                <option value="COMP213">COMP213 - Web Interface Design</option>
-            </select><br><br>
-            <label for="specialRequest">Special Requests</label>
-            <textarea placeholder="Please Enter Any Relevant Information Here" rows="10" cols="50"></textarea>
-            <br><br>
-            <button type="submit">Submit Your Information</button>
-            <button type="reset">Reset Information</button>
-        </form>
-    </main>
-    <footer>
-        <p id="copyright">&copy;&nbsp;Copyright Parth Shreyash Patel - Class Example Week09 - COMP213</p>
-    </footer>
+    <div id="fullPage">
+        <header>
+            <h1>Centennial College - Registration Form</h1>
+        </header>
+        <main>
+            <form action="mailto:jdoe@example.ca" method="post">
+                <table>
+                    <tr>
+                        <td class="labels"><label>First Name: </label></td>
+                        <td><input type="text" id="firstName" name="firstName" maxlength="25" placeholder="First Name"></td>
+                    </tr>
+                    <tr>
+                        <td class="labels">Middle Name:</td>
+                        <td><input type="tel" id="middleName" name="middleName" maxlength="25" placeholder="Middle Name"></td>
+                    </tr>
+                    <tr>
+                        <td class="labels">Last Name</td>
+                        <td><input type="text" id="lastName" name="lastName" maxlength="25" placeholder="Last Name"></td>
+                    </tr>
+                    <tr>
+                        <td class="labels"> E-Mail:</td>
+                        <td><input type="text" id="emailField" name="emailField" maxlength="45" placeholder="jdoe@example.ca"></td>
+                    </tr>
+                    <tr>
+                        <td class="labels">Create Password:</td>
+                        <td><input type="password" id="psw" name="psw" maxlength="16" placeholder="Password"></td>
+                    </tr>
+                    <tr>
+                        <td class="labels"> Confirm Password:</td>
+                        <td><input type="password" id="confirmPSW" name="confirmPSW" maxlength="16" placeholder="Confirm Password"></td>
+                    </tr>
+                    <tr>
+                        <td class="labels">Gender:</td>
+                        <td><input type="radio" id="male" name="gender" value="male">
+                            <label for="male">Male</label>
+                            <input type="radio" id="female" name="gender" value="female">
+                            <label for="female">Female</label>
+                            <input type="radio" id="other" name="gender" value="other">
+                            <label for="other">Other</label></td>
+                    </tr>
+                    <tr>
+                        <td class="labels">Education:</td>
+                        <td>
+                            <input type="radio" id="phD" name="education" value="phD">
+                            <label for="phD">phD</label>
+                            <input type="radio" id="masters" name="education" value="masters">
+                            <label for="masters">masters</label>
+                            <input type="radio" id="undergrad" name="education" value="undergrad">
+                            <label for="undergrad">Undergrad</label>
+                            <input type="radio" id="college" name="education" value="college">
+                            <label for="college">college</label>
+                            <input type="radio" id="highSchool" name="education" value="highSchool">
+                            <label for="highSchool">High School</label></td>
+                    </tr>
+
+                    <tr>
+                        <td class="labels">Computer Competency:</td>
+                        <td>
+                            <input type="checkbox" id="OS" name="computerCompetency" value="OS">
+                            <label for="OS">OS</label>
+                            <input type="checkbox" id="Programming" name="computerCompetency" value="Programming">
+                            <label for="Programming">Programming</label>
+                            <input type="checkbox" id="" name="computerCompetency" value="">
+                            <label for=""></label></td>
+                        <!-- Copy above and Enter more -->
+                    </tr>
+
+                    <tr>
+                        <td class="labels"><label for="courses">Select Courses: </label></td>
+                        <td><select multiple="multiple" name="courses" size="5">
+                                <option value="COMM170">COMM170 - College Communications</option>
+                                <option value="COMP100">COMP100 - Programming I</option>
+                                <option value="COMP120">COMP120 - Software Engineering Fundamentals</option>
+                                <option value="COMP125">COMP125 - Client Side Development</option>
+                                <option value="COMP213">COMP213 - Web Interface Design</option>
+                            </select></td><br><br>
+                    </tr>
+                    <tr>
+                        <td class="labels"><label for="specialRequest">Special Requests:</label></td>
+                        <td><textarea placeholder="Please Enter Any Relevant Information Here" rows="10" cols="50"></textarea></td>
+
+                    </tr>
+                    <br><br>
+                    <tr>
+                        <td class="labels"><button type="submit">Submit Your Information</button></td>
+                        <td><button type="reset">Reset Information</button></td>
+                </table>
+            </form>
+        </main>
+
+        <footer>
+            <a id="indexRef" href="../index.html">Back to Index Page</a>
+            <p id="copyright">&copy;&nbsp;Copyright Parth Shreyash Patel - Class Example Week09 - COMP213</p>
+        </footer>
+    </div>
 </body></html>
