@@ -1,0 +1,288 @@
+<!doctype html>
+<html>
+<!-- Created by Parth Shreyash Patel - Created on 2020/04/01 - Modified on 2020/04/01 -->
+
+<head>
+    <title>Centennial College Course Evaluation Form</title>
+    <link rel="stylesheet" type="text/css" href="formStyle.css">
+</head>
+
+<body>
+    <div id="mainBody">
+        <header>
+            <a href="https://www.centennialcollege.ca">Add Image Here</a>
+            <h1 id="title">Centennial College</h1>
+            <h2 id="subtitle">Continuing Education Course/Instructor Evaluation</h2>
+        </header>
+        <div id="formInfo">
+            <p>Please read each statement carefully and consider each one individually. Once fully completed, please review your choices as your input is important to us. Thank you for your participation!</p>
+        </div>
+        <hr>
+        <main>
+            <form>
+                <div id="classInfo" class="mainSections">
+                    <div id="courseCode" class="division01">
+                        <div class="left">
+                            <p>Course Code:</p>
+                        </div>
+                        <div id="courses" class="right">
+                            <p>trial and error bitch<br>
+                                i hate you guts</p>
+                        </div>
+                    </div>
+
+                    <div id="semester" class="division01">
+                        <div class="left">
+                            <p>Semester:</p>
+                        </div>
+                        <div id="semRadio" class="right">
+                            <input type="radio" id="Fall" name="semester" value="Fall">
+                            <label for="Fall">Fall</label>
+                            <input type="radio" id="Winter" name="semester" value="Winter">
+                            <label for="Winter">Winter</label>
+                            <input type="radio" id="springSummer" name="semester" value="springSummer">
+                            <label for="springSummer">Spring/Summer</label>
+                        </div>
+                    </div>
+
+                    <div id="year" class="division01">
+                        <div class="left">
+                            <p>Year:</p>
+                        </div>
+                        <div id="years" class="right">
+                            <select name="year">
+                                <option value="2020">2020</option>
+                                <option value="2019">2019</option>
+                                <option value="2018">2018</option>
+                                <option value="2017">2017</option>
+                                <option value="2016">2016</option>
+                                <option value="2015">2015</option>
+                            </select>
+                        </div>
+                    </div>
+
+                    <div id="instructor">
+                        <div class="left">
+                            <p>Instructor Name:</p>
+                        </div>
+                        <div class="right">
+                            <input type="text" id="instructorName" name="instructorName" maxlength="50" placeholder="Instructor Name">
+                        </div>
+                    </div>
+                </div>
+                <div id="instructorEval" class="mainSections">
+                    <div>
+                        <p><b>Instructor</b><br><span>How would you rate your instructor's:</span></p>
+                    </div>
+                    <div id="knowledge" class="subSections">
+                        <div class="left">
+                            <p><b>Knowledge</b> of the subject?</p>
+                        </div>
+                        <div class="right">
+                            <input type="radio" name="instructorKnowledge" id="excellent" value="excellent">
+                            <label for="excellent">Excellent</label>
+                            <input type="radio" name="instructorKnowledge" id="good" value="good">
+                            <label for="good">good</label>
+                            <input type="radio" name="instructorKnowledge" id="fair" value="fair">
+                            <label for="fair">Fair</label>
+                            <input type="radio" name="instructorKnowledge" id="notSatisfactory" value="notSatisfactory">
+                            <label for="notSatisfactory">Not Satisfactory</label>
+                        </div>
+                    </div>
+                    <div id="help" class="subSections">
+                        <div class="left">
+                            <p><b>Helpfulness?</b></p>
+                        </div>
+                        <div class="right">
+                            <input type="radio" name="helpfulness" id="excellent" value="excellent">
+                            <label for="excellent">Excellent</label>
+                            <input type="radio" name="helpfulness" id="good" value="good">
+                            <label for="good">good</label>
+                            <input type="radio" name="helpfulness" id="fair" value="fair">
+                            <label for="fair">Fair</label>
+                            <input type="radio" name="helpfulness" id="notSatisfactory" value="notSatisfactory">
+                            <label for="notSatisfactory">Not Satisfactory</label>
+                        </div>
+                    </div>
+                    <div id="courtResp" class="subSections">
+                        <div class="left">
+                            <p><b>Courtesy and Respect</b> for all students?</p>
+                        </div>
+                        <div class="right">
+                            <input type="radio" name="courtesyRespect" id="excellent" value="excellent">
+                            <label for="excellent">Excellent</label>
+                            <input type="radio" name="courtesyRespect" id="good" value="good">
+                            <label for="good">good</label>
+                            <input type="radio" name="courtesyRespect" id="fair" value="fair">
+                            <label for="fair">Fair</label>
+                            <input type="radio" name="courtesyRespect" id="notSatisfactory" value="notSatisfactory">
+                            <label for="notSatisfactory">Not Satisfactory</label>
+                        </div>
+                    </div>
+                    <div id="comm" class="subSections">
+                        <div class="left">
+                            <p><b>Communication</b> skills?</p>
+                        </div>
+                        <div class="right">
+                            <input type="radio" name="communication" id="excellent" value="excellent">
+                            <label for="excellent">Excellent</label>
+                            <input type="radio" name="communication" id="good" value="good">
+                            <label for="good">good</label>
+                            <input type="radio" name="communication" id="fair" value="fair">
+                            <label for="fair">Fair</label>
+                            <input type="radio" name="communication" id="notSatisfactory" value="notSatisfactory">
+                            <label for="notSatisfactory">Not Satisfactory</label>
+                        </div>
+                    </div>
+                    <div id="perf" class="subSections">
+                        <div class="left">
+                            <p>overall <b>Performance?</b></p>
+                        </div>
+                        <div class="right">
+                            <input type="radio" name="performance" id="excellent" value="excellent">
+                            <label for="excellent">Excellent</label>
+                            <input type="radio" name="performance" id="good" value="good">
+                            <label for="good">good</label>
+                            <input type="radio" name="performance" id="fair" value="fair">
+                            <label for="fair">Fair</label>
+                            <input type="radio" name="performance" id="notSatisfactory" value="notSatisfactory">
+                            <label for="notSatisfactory">Not Satisfactory</label>
+                        </div>
+                    </div>
+                </div>
+                <div id="courseEval" class="mainSections">
+                    <div id="sectionTitle">
+                        <p><b>Course</b></p>
+                    </div>
+                    <div id="courseMat" class="subSections">
+                        <div class="left">
+                            <p>How would you rate the <b>Course Materials?</b></p>
+                        </div>
+                        <div class="right">
+                            <input type="radio" name="courseMaterial" id="excellent" value="excellent">
+                            <label for="excellent">Excellent</label>
+                            <input type="radio" name="courseMaterial" id="good" value="good">
+                            <label for="good">good</label>
+                            <input type="radio" name="courseMaterial" id="fair" value="fair">
+                            <label for="fair">Fair</label>
+                            <input type="radio" name="courseMaterial" id="notSatisfactory" value="notSatisfactory">
+                            <label for="notSatisfactory">Not Satisfactory</label>
+                        </div>
+                    </div>
+                    <div id="expect" class="subSections">
+                        <div class="left">
+                            <p>How much did this course meet you <b>Expectations?</b></p>
+                        </div>
+                        <div class="right">
+                            <input type="radio" name="expectations" id="excellent" value="excellent">
+                            <label for="excellent">Excellent</label>
+                            <input type="radio" name="expectations" id="good" value="good">
+                            <label for="good">good</label>
+                            <input type="radio" name="expectations" id="fair" value="fair">
+                            <label for="fair">Fair</label>
+                            <input type="radio" name="expectations" id="notSatisfactory" value="notSatisfactory">
+                            <label for="notSatisfactory">Not Satisfactory</label>
+                        </div>
+                    </div>
+                    <div id="geninfo" class="subSections">
+                        <div class="left">
+                            <p>How would you rate this course <b>(Overall)?</b></p>
+                        </div>
+                        <div class="right">
+                            <input type="radio" name="overallRate" id="excellent" value="excellent">
+                            <label for="excellent">Excellent</label>
+                            <input type="radio" name="overallRate" id="good" value="good">
+                            <label for="good">good</label>
+                            <input type="radio" name="overallRate" id="fair" value="fair">
+                            <label for="fair">Fair</label>
+                            <input type="radio" name="overallRate" id="notSatisfactory" value="notSatisfactory">
+                            <label for="notSatisfactory">Not Satisfactory</label>
+                        </div>
+                    </div>
+                </div>
+                <div id="generalInformatio" class="mainSections">
+                    <div id="sectionTitle">
+                        <p><b>General Information</b></p>
+                    </div>
+                    <div class="subSections">
+                        <div class="left">
+                            <p>Was the <b>Course Outline </b>reviewed/Explained at the beginning of your course?</p>
+                        </div>
+                        <div class="right">
+                            <input type="radio" name="courseOutline" id="yes" value="yes">
+                            <label for="yes">Yes</label>
+                            <input type="radio" name="courseOutline" id="no" value="no">
+                            <label for="no">No</label>
+                            <input type="radio" name="courseOutline" id="notSure" value="notSure">
+                            <label for="notSure">Not Sure</label>
+                        </div>
+                    </div>
+                       <div class="subSections">
+                        <div class="left">
+                            <p>Would you <b>Recommend </b>this course to a friend with the same interests?</p>
+                        </div>
+                        <div class="right">
+                            <input type="radio" name="recommend" id="yes" value="yes">
+                            <label for="yes">Yes</label>
+                            <input type="radio" name="recommend" id="no" value="no">
+                            <label for="no">No</label>
+                            <input type="radio" name="recommend" id="notSure" value="notSure">
+                            <label for="notSure">Not Sure</label>
+                        </div>
+                    </div>
+                </div>
+                <div id="otherComments" class="mainSections">
+                    <div id="sectionTitle">
+                        <p><b>Any Other Comments</b> (Optional but if possible enter as much as you can)</p>
+                    </div>
+                    <div id="bestThing" class="subSections">
+                        <div class="left">
+                            <p>What is the <b>Best Thing </b>about this course?</p>
+                        </div>
+                        <div class="right">
+                            <input id="bestTextbox" type="text" maxlength="250" placeholder="Type Here">
+                        </div>
+                    </div>
+                    <div id="improvement" class="subSections">
+                        <div class="left">
+                            <p>How could we <b>Improve</b> this course?</p>
+                        </div>
+                        <div class="right">
+                            <input id="improveTextbox" type="text" maxlength="250" placeholder="Type Here">
+                        </div>
+                    </div>
+                    <div id="other" class="subSections">
+                        <div class="left">
+                            <p><b>Other</b></p>
+                        </div>
+                        <div class="right">
+                            <input id="otherTextbook" type="text" maxlength="250" placeholder="Type Here">
+                        </div>
+                    </div>
+                </div>
+            </form>
+        </main>
+    </div>
+</body></html>
+
+<!--
+
+                    <div id="sectionTitle">
+                        <p><b></b></p>
+                    </div>
+                    <div class="subSections">
+                        <div class="left">
+                            <p><b></b></p>
+                        </div>
+                        <div class="right">
+                            <input type="radio" name="" id="excellent" value="excellent">
+                            <label for="excellent">Excellent</label>
+                            <input type="radio" name="" id="good" value="good">
+                            <label for="good">good</label>
+                            <input type="radio" name="" id="fair" value="fair">
+                            <label for="fair">Fair</label>
+                            <input type="radio" name="" id="notSatisfactory" value="notSatisfactory">
+                            <label for="notSatisfactory">Not Satisfactory</label>
+                        </div>
+                    </div>
+-->

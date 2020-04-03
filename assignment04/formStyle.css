@@ -1,0 +1,45 @@
+/* Created by Parth Shreyash Patel - Created on 2020/03/10 - Modified on 2020/02/10 */
+#mainBody{
+    width: 980px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#title{
+    text-align: center;
+}
+
+#subtitle{
+    text-align: center;
+}
+
+hr{
+    border-color: seagreen;
+    border-width: 2px;
+}
+
+.mainSections{
+    overflow: auto;
+}
+
+.subSections{
+    overflow: auto;
+}
+
+.division01{
+    overflow: auto;
+}
+
+.left{
+    width: 485px;
+    text-align: right;
+    float: left;
+    margin-right: 5px;
+}
+
+.right{
+    width: 485px;
+    text-align: left;
+    float: right;
+    margin-left: 5px;
+}
