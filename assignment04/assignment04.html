@@ -1,6 +1,6 @@
 <!doctype html>
 <html>
-<!-- Created by Parth Shreyash Patel - Created on 2020/04/01 - Modified on 2020/04/01 -->
+<!-- Created by Parth Shreyash Patel - Created on 2020/04/01 - Modified on 2020/04/02 -->
 
 <head>
     <title>Centennial College Course Evaluation Form</title>
@@ -20,8 +20,10 @@
         <hr>
         <main>
             <form>
+               
+               
                 <div id="classInfo" class="mainSections">
-                    <div id="courseCode" class="division01">
+                    <div id="courseCode" class="subSections">
                         <div class="left">
                             <p>Course Code:</p>
                         </div>
@@ -31,7 +33,7 @@
                         </div>
                     </div>
 
-                    <div id="semester" class="division01">
+                    <div id="semester" class="subSections">
                         <div class="left">
                             <p>Semester:</p>
                         </div>
@@ -45,7 +47,7 @@
                         </div>
                     </div>
 
-                    <div id="year" class="division01">
+                    <div id="year" class="subSections">
                         <div class="left">
                             <p>Year:</p>
                         </div>
@@ -61,7 +63,7 @@
                         </div>
                     </div>
 
-                    <div id="instructor">
+                    <div id="instructor" class="subSections">
                         <div class="left">
                             <p>Instructor Name:</p>
                         </div>
@@ -70,8 +72,10 @@
                         </div>
                     </div>
                 </div>
+                
+                
                 <div id="instructorEval" class="mainSections">
-                    <div>
+                    <div class="sectionTitle">
                         <p><b>Instructor</b><br><span>How would you rate your instructor's:</span></p>
                     </div>
                     <div id="knowledge" class="subSections">
@@ -150,8 +154,10 @@
                         </div>
                     </div>
                 </div>
+                
+                
                 <div id="courseEval" class="mainSections">
-                    <div id="sectionTitle">
+                    <div class="sectionTitle">
                         <p><b>Course</b></p>
                     </div>
                     <div id="courseMat" class="subSections">
@@ -184,7 +190,7 @@
                             <label for="notSatisfactory">Not Satisfactory</label>
                         </div>
                     </div>
-                    <div id="geninfo" class="subSections">
+                    <div id="genInfo" class="subSections">
                         <div class="left">
                             <p>How would you rate this course <b>(Overall)?</b></p>
                         </div>
@@ -200,11 +206,13 @@
                         </div>
                     </div>
                 </div>
-                <div id="generalInformatio" class="mainSections">
-                    <div id="sectionTitle">
+                
+                
+                <div id="generalInformation" class="mainSections">
+                    <div class="sectionTitle">
                         <p><b>General Information</b></p>
                     </div>
-                    <div class="subSections">
+                    <div id="courseOut" class="subSections">
                         <div class="left">
                             <p>Was the <b>Course Outline </b>reviewed/Explained at the beginning of your course?</p>
                         </div>
@@ -217,7 +225,7 @@
                             <label for="notSure">Not Sure</label>
                         </div>
                     </div>
-                       <div class="subSections">
+                       <div id="recommendation" class="subSections">
                         <div class="left">
                             <p>Would you <b>Recommend </b>this course to a friend with the same interests?</p>
                         </div>
@@ -231,8 +239,10 @@
                         </div>
                     </div>
                 </div>
+                
+                
                 <div id="otherComments" class="mainSections">
-                    <div id="sectionTitle">
+                    <div class="sectionTitle">
                         <p><b>Any Other Comments</b> (Optional but if possible enter as much as you can)</p>
                     </div>
                     <div id="bestThing" class="subSections">
@@ -240,7 +250,7 @@
                             <p>What is the <b>Best Thing </b>about this course?</p>
                         </div>
                         <div class="right">
-                            <input id="bestTextbox" type="text" maxlength="250" placeholder="Type Here">
+                            <textarea id="bestThingTextbox" name="otherTextbox" placeholder="Type Here" maxlength="450" cols="50" rows="5"></textarea>
                         </div>
                     </div>
                     <div id="improvement" class="subSections">
@@ -248,7 +258,7 @@
                             <p>How could we <b>Improve</b> this course?</p>
                         </div>
                         <div class="right">
-                            <input id="improveTextbox" type="text" maxlength="250" placeholder="Type Here">
+                            <textarea id="improvementTextbox" name="otherTextbox" placeholder="Type Here" maxlength="450" cols="50" rows="5"></textarea>
                         </div>
                     </div>
                     <div id="other" class="subSections">
@@ -256,10 +266,12 @@
                             <p><b>Other</b></p>
                         </div>
                         <div class="right">
-                            <input id="otherTextbook" type="text" maxlength="250" placeholder="Type Here">
+                            <textarea id="otherTextbox" name="otherTextbox" placeholder="Type Here" maxlength="450" cols="50" rows="5"></textarea>
                         </div>
                     </div>
                 </div>
+                
+                
             </form>
         </main>
     </div>

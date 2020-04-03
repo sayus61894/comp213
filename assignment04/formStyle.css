@@ -26,18 +26,21 @@ hr{
     overflow: auto;
 }
 
-.division01{
-    overflow: auto;
+.sectionTitle{
+    color: blue;
+    font-size: 20px;
 }
 
 .left{
-    width: 485px;
+    width: 405px;
     text-align: right;
     float: left;
     margin-right: 5px;
+    margin-left: 80px;
 }
 
 .right{
+    padding-top: 15px;
     width: 485px;
     text-align: left;
     float: right;
