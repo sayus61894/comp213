@@ -46,3 +46,11 @@ hr{
     float: right;
     margin-left: 5px;
 }
+
+#buttons{
+    text-align: right;
+}
+
+#submitButton{
+    margin-top: 15px;
+}
