@@ -1,8 +1,34 @@
-/* Created by Parth Shreyash Patel - Created on 2020/03/10 - Modified on 2020/02/10 */
+/* Created by Parth Shreyash Patel - Created on 2020/04/01 - Modified on 2020/04/03 */
+
+body{
+    height: 100%;
+    background-image: url(./images/CentennialCollege_1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
 #mainBody{
-    width: 980px;
+    width: 1000px;
     margin-left: auto;
     margin-right: auto;
+    margin-bottom: 20px;
+    font-family: sans-serif;
+    background-color: #ebf8e5;
+    opacity: 1;
+}
+
+header img{
+    height: 230px;
+    width: 100%;
+    text-align: center;
+    background-image: url(images/centennialBanner.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+main{
+    padding-left: 10px;
+    padding-right: 10px;
 }
 
 #title{
@@ -13,9 +39,18 @@
     text-align: center;
 }
 
-hr{
+#formInfo{
+    color: darkgreen;
+}
+
+.majorSep{
     border-color: seagreen;
     border-width: 2px;
+}
+
+.minorSep{
+    border-color: darkseagreen;
+    border-width: 1px;
 }
 
 .mainSections{
@@ -27,7 +62,7 @@ hr{
 }
 
 .sectionTitle{
-    color: blue;
+    color: darkgreen;
     font-size: 20px;
 }
 
@@ -48,9 +83,14 @@ hr{
 }
 
 #buttons{
-    text-align: right;
+    margin-bottom: 40px;
 }
 
 #submitButton{
     margin-top: 15px;
+}
+
+footer{
+    margin-left: 10px;
+    margin-right: 10px;
 }
