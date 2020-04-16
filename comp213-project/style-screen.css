@@ -1,3 +1,17 @@
+#mainContainer{
+    width: 980px;
+    margin: 0px auto;
+}
+
+#logo{
+    float: left;
+}
+
+#menu{
+    float: left;
+}
+
 #menu li{
+    
     display: inline;
 }
