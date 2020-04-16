@@ -1,0 +1,13 @@
+body{
+    height: 100%;
+    background-image: url(../../../assignment04/images/CentennialCollege_1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+#mainbody{
+    background-color: white;
+}
+header img{
+    height: 230px;
+    width: 100%;
+}
