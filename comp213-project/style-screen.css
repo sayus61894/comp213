@@ -1,6 +1,26 @@
-#mainContainer{
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    background-color: #f1f1fc;
+    font-family: sans-serif;
+}
+#header{
+    color: cadetblue;
+    font-size: 20px;
+    width: 100%;
+    background-color: #8fe9a3;
+
+}
+
+#horizontal{
     width: 980px;
     margin: 0px auto;
+    height: 50px;
+    background-color: inherit;
 }
 
 #logo{
@@ -8,10 +28,137 @@
 }
 
 #menu{
-    float: left;
+    float: right;
+    list-style: none;
+        background-color: inherit;
+
+}
+
+#menu a{
+    text-decoration: none;
+    color: royalblue;
+    background-color: inherit;
+}
+
+#menu a:hover, #dropdownContent a:hover{
+    color: aliceblue;
+    background-color: inherit;
+
 }
 
 #menu li{
-    
-    display: inline;
+    width: 100px;
+    height: 50px;
+    line-height: 50px;
+    float: left;
+    position: relative;
+    text-align: center;
+    background-color: inherit;
+
 }
+
+#menu li:hover{
+    background-color: #66cdaa;
+        color: black;
+
+}
+
+#dropdownContent {
+    display: none;
+    padding: 0;
+    margin: 0;
+}
+
+#menu li:hover  #dropdownContent{
+    display: block;
+    background-color: #66cdaa;
+
+}
+
+#dropdownContent li{
+    background-color: #8fe9a3;
+    clear: both;
+    list-style: none;
+    z-index: 1;
+}
+
+
+
+#mainBody{
+    background-color: #e9fcf7;
+    color: midnightblue;
+    width: 980px;
+    margin: 0px auto;
+}
+
+#mainBody h1, #mainBody p{
+    margin: 10px;
+}
+
+#genInfo{
+    padding: 10px 10px 0px 0px;
+    overflow: auto;
+}
+
+#genInfo p{
+    margin: 10px 10px;
+}
+
+#genInfo h1{
+    margin: 0px 0px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+
+#portrait{
+    width: 250px;
+    float: left;
+    margin: 0px 10px 5px 10px;
+}
+
+#addressInfo{
+    width: 33.3%;
+    background-color: #f1f1fc;
+    float: right;
+    padding: 20px 20px 100px 20px;
+}
+
+#work h2{
+    margin-left: auto;
+    margin-right: auto;
+    width: 90%;
+}
+
+#work div{
+    margin-left: auto;
+    margin-right: auto;
+    width: 85%;
+}
+
+#awards h2{
+    margin-left: auto;
+    margin-right: auto;
+    width: 90%;
+}
+
+#awards div{
+    margin-left: auto;
+    margin-right: auto;
+    width: 85%;
+}
+
+#awards img{
+    width: 40px;
+    float: left;
+}
+
+.indAward{
+    padding-top: 10px;
+    clear: both;
+}
+
+hr{
+    margin: 10px;
+}
+
