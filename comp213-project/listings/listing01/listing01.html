@@ -1,6 +1,7 @@
 <!doctype html>
 <html>
-    <head>
+
+<head>
     <link type="text/css" rel="stylesheet" href="style-listing01.css">
     <title>Fae Kname - Listing 01</title>
 </head>
@@ -8,23 +9,104 @@
 <body>
     <div id="header">
         <nav id="horizontal">
-           <img src="#" id="logo">
+            <img src="../../images/logo.png" id="logo">
             <ul id="menu">
                 <li><a href="../../projectIndex.html" id="home">Home</a></li>
                 <li><a href="../listingIndex.html" id="listings">Listings</a>
-                <ul id="dropdownContent">
-                    <li><a href="listing01.html">Listing 01</a></li>
-                    <li><a href="../listing02/listing02.html">Listing 02</a></li>
-                    <li><a href="../listing03/listing03.html">Listing 03</a></li>
-                </ul>
+                    <ul id="dropdownContent">
+                        <li><a href="listing01.html">Listing 01</a></li>
+                        <li><a href="../listing02/listing02.html">Listing 02</a></li>
+                        <li><a href="../listing03/listing03.html">Listing 03</a></li>
+                    </ul>
                 </li>
-                <li><a href="" id="aboutUs">About Us</a></li>
-                <li><a href="" id="siteMap">Site Map</a></li>
+                <li><a href="../../contactUs/contactUsForm.html" id="contactUs">Contact Us</a></li>
+                <li><a href="../../siteMap.html" id="siteMap">Site Map</a></li>
             </ul>
         </nav>
     </div>
-    <main>
-
+    <main id="mainBody">
+        <div id="houseIntro">
+            <div id="container-houseImage">
+                <img src="images/houseFront.jpg">
+            </div>
+            <div id="houseAddress">
+                <h2>43 Hiscock Ave</h2>
+                <address>
+                    Scarborough, Ontario<br>
+                    M1G 1S1
+                </address>
+            </div>
+        </div>
+        <div id="houseInfo">
+            <h3>Description</h3>
+            <p>Beautiful house on the east end of Toronto. Close by to all amenities. Within bussing distance to Centennial College. Unfinished basement.</p>
+            <hr>
+            <div id="houseGallery">
+                <div id="gall">
+                    <h3>House Gallery</h3>
+                    <div class="image"><a href="images/houseFront.jpg" target="_blank"><img src="images/houseFront.jpg"></a></div>
+                    <div class="image"><a href="images/IMG_20160309_112838.jpg" target="_blank"><img src="images/IMG_20160309_112838.jpg"></a></div>
+                    <div class="image"><a href="images/IMG_20160309_112711.jpg" target="_blank"><img src="images/IMG_20160309_112711.jpg"></a></div>
+                </div>
+            </div>
+            <div id="toClear"></div>
+            <hr>
+            <div id="houseIntro">
+                <h3>Room Breakdown</h3>
+                <table>
+                    <tr>
+                        <th>Room</th>
+                        <th>Location</th>
+                        <th>Width</th>
+                        <th>Length</th>
+                    </tr>
+                    <tr>
+                        <th>Bedroom #1 </th>
+                        <td>Main Floor</td>
+                        <td>3.54 m</td>
+                        <td>4.21 m</td>
+                    </tr>
+                    <tr>
+                        <th>Bedroom #2 </th>
+                        <td>Main Floor</td>
+                        <td>2.89 m</td>
+                        <td>4.24 m</td>
+                    </tr>
+                    <tr>
+                        <th>Master Bedroom</th>
+                        <td>Main Floor</td>
+                        <td>4.54 m</td>
+                        <td>5.51 m</td>
+                    </tr>
+                    <tr>
+                        <th>Living Room</th>
+                        <td>Main Floor</td>
+                        <td>4.49 m</td>
+                        <td>4.51 m</td>
+                    </tr>
+                    <tr>
+                        <th>Kitchen</th>
+                        <td>Main Floor</td>
+                        <td>2.09 m</td>
+                        <td>5.01 m</td>
+                    </tr>
+                    <tr>
+                        <th>Laundry Room</th>
+                        <td>Basement</td>
+                        <td>-</td>
+                        <td>-</td>
+                    </tr>
+                </table>
+            </div>
+        </div>
+        <br>
+        <hr>
+        <footer>
+                <h5 id="left">&copy;&nbsp;Copyright Parth Shreyash Patel - COMP213 - Winter 2020 </h5>
+                <h5 id="right"><a href="../../../index.html">Back to Main Page</a></h5>
+            </footer>
     </main>
 
-</body></html>
+</body>
+
+</html>

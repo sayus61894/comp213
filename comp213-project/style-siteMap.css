@@ -117,67 +117,9 @@ footer #right{
     float: right;
 }
 
-#houseIntro{
-    margin-top: 10px;
-    overflow: auto;
-    clear: both;
-}
 
-#container-houseImage{
-    float: left;
-    width: 50%;
-}
-
-#houseAddress{
-    text-align: center;
-    padding-top: 100px
-}
-
-table{
-    margin-top: 5px;
-    margin-left: auto;
-    margin-right: auto;
+#references{
     width: 95%;
-    text-align: left;
-}
-
-tr:nth-child(even){
-    background-color: #f2f2f2;
-}
-
-th, td{
-    border-bottom: 1px solid #dedede;
-}
-
-#houseGallery{
-    width: 100%;
-    height: 100%;
     margin-left: auto;
     margin-right: auto;
-    clear: both;
-    overflow: visible;
-}
-
-
-
-#toClear{
-    overflow: auto;
-    clear: both;
-}
-
-.image{
-    padding-left: 100px;
-    width: 300px;
-    float: left;
-}
-
-.image img{
-    width: 75%;
-}
-
-
-.image img:hover{
-    float: none;
-    transform: scale(2);
-    transition: 0.5s;
 }

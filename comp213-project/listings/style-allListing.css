@@ -4,6 +4,10 @@
     margin: 0;
 }
 
+body{
+    background-color: #f1f1fc;
+    font-family: sans-serif;
+}
 #header{
     color: cadetblue;
     font-size: 20px;
@@ -16,6 +20,7 @@
     width: 980px;
     margin: 0px auto;
     height: 50px;
+    background-color: inherit;
 }
 
 #logo{
@@ -25,15 +30,20 @@
 #menu{
     float: right;
     list-style: none;
+        background-color: inherit;
+
 }
 
 #menu a{
     text-decoration: none;
-    color: midnightblue;
+    color: royalblue;
+    background-color: inherit;
 }
 
 #menu a:hover, #dropdownContent a:hover{
     color: aliceblue;
+    background-color: inherit;
+
 }
 
 #menu li{
@@ -43,6 +53,7 @@
     float: left;
     position: relative;
     text-align: center;
+    background-color: inherit;
 
 }
 
@@ -74,6 +85,71 @@
 
 
 #mainBody{
+    background-color: #e9fcf7;
+    color: midnightblue;
     width: 980px;
-    margin: 0PX auto;
+    padding-left: 10px;
+    padding-right: 10px;
+    margin: 0px auto;
+    overflow: auto;
+    padding-bottom: 20px;
+}
+
+#mainBody h1, #mainBody p{
+    margin: 10px;
+}
+
+
+hr{
+    margin: 10px;
+}
+
+footer{
+    margin-left: auto;
+    margin-right: auto;
+    width: 90%;
+}
+footer #left{
+    float: left;
+}
+
+footer #right{
+    float: right;
+}
+
+.container-listing{
+    height: 500px;
+    display: flex;
+    overflow: hidden;
+}
+
+.wrapper-listing{
+    text-align: center;
+    padding-top: 140px;
+    float: left;
+    flex: 1 1 0px;
+}
+
+.wrapper-listing img{
+    width: 100%;
+}
+
+.wrapper-listingInfo{
+    padding: 10px;
+    width: 100%;
+}
+
+.container-listing:hover .wrapper-listing{
+    transform: translateX(-25%);
+    transition: 1s;
+}
+
+.wrapper-listing:hover ~ .wrapper-listing{
+    transform: translateX(25%);
+    transition: 1s;
+}
+
+.container-listing .wrapper-listing:hover{
+    transform: scale(1.5);
+    transition: 1s;
 }
